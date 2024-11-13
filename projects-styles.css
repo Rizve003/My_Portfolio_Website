@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header */
+  header {
+    background-color: #1a1a1a;
+    color: red;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header nav ul li a:hover {
+    color: white;
+  }
+  
+  /* Projects Section */
+  .section {
+    padding: 40px;
+    text-align: center;
+    border-bottom: 1px solid red;
+  }
+  
+  #projects {
+    padding: 40px;
+  }
+  
+  .project-card {
+    background-color: #1a1a1a;
+    color: white;
+    border: 2px solid red;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+  }
+  
+  .project-card h3 {
+    color: red;
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  
+  .project-card p {
+    line-height: 1.6;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1a1a1a;
+    color: red;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
